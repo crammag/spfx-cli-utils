@@ -2,13 +2,21 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "chhildren-web-part": {
+    "children-web-part": {
       "components": [
         {
           "entrypoint": "./lib/webparts/children/ChildrenWebPart.js",
           "manifest": "./src/webparts/children/ChildrenWebPart.manifest.json"
         }
       ]
+    // },
+    // "children-web-part2": {
+    //   "components": [
+    //     {
+    //       "entrypoint": "./lib/webparts/children/ChildrenWebPart2.js",
+    //       "manifest": "./src/webparts/children/ChildrenWebPart2.manifest.json"
+    //     }
+    //   ]
     }
   },
   "externals": {},

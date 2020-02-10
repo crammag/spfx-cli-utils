@@ -4,7 +4,8 @@
   "description": "A set of utilities to work with SharePoint Framework shaped as a cli tool",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -12,11 +13,9 @@
   },
   "keywords": [
     "SharePoint",
-    "Sharepoint",
-    "Framework",
+    "Sharepoint Framework",
     "SPFX",
-    "SharePoint",
-    "Utilities",
+    "SharePoint Utilities",
     "spfx-cli"
   ],
   "author": "MA",
@@ -26,7 +25,13 @@
   },
   "homepage": "https://github.com/crammag/spfx-cli-utils#readme",
   "devDependencies": {
+    "@types/argv": "0.0.4",
+    "@types/node": "^13.7.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "argv": "0.0.2",
+    "comment-json": "2.4.1"
   }
 }
